@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+[⚠️ Suspicious Content] <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -17,14 +17,12 @@
       color: white;
       padding: 2rem;
       text-align: center;
-    .headshot {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 1rem;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
+    .divider {
+  margin: 1rem auto;
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 60%;
+      }
     .resume-button {
       display: inline-block;
       margin-top: 1rem;
@@ -39,7 +37,21 @@
     }
     .resume-button:hover {
       background-color: #005fa3;
-    {
+    }
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
     }
     .headshot {
       margin-top: 1rem;
@@ -49,15 +61,6 @@
       object-fit: cover;
       border: 3px solid white;
     }
-       }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #ccc;
-      }
     .section {
       padding: 3rem 2rem;
       max-width: 1000px;
@@ -96,6 +99,8 @@
     .project a {
       color: #0073e6;
       text-decoration: none;
+   <footer>
+      }
     footer {
       margin-top: 4rem;
       padding-top: 1rem;
@@ -122,6 +127,7 @@
     .footer-button:hover {
       background-color: #111;
     }
+  </footer>
   </style>
 </head>
 <body>
@@ -129,6 +135,10 @@
     <h1>Miguel Rodriguez</h1>
     <p>Creative Lead | Storyteller | Experience Architect</p>
     <img src="Miguel.jpeg" alt="Miguel Rodriguez Headshot" class="headshot" />
+     <hr class="divider" />
+  <div class="button-container">
+    <a href="resume.pdf" target="_blank" class="resume-button">Download Resume</a>
+  </div>
   </header>
 
   <section class="section">
@@ -187,9 +197,16 @@
       <p>Sample clips and scripts from live appearances, speaker intros, and Q&A moderation.</p>
       <p><a href="speaking.html">Watch speaking reel</a></p>
     </div>
-  </section>
-
-  <footer>
+     <footer>
+    <div class="footer-buttons">
+      <a href="mailto:your.email@example.com" class="footer-button">Email Me</a>
+      <a href="https://www.linkedin.com/in/migueldrodriguez/" target="_blank" class="footer-button">Connect on LinkedIn</a>
+    </div>
+  </footer>
+  </div>
+  <p>
+    
+  </p>
     &copy; 2025 Miguel Rodriguez. All rights reserved.
   </footer>
 </body>
