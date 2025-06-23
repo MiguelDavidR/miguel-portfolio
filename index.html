@@ -5,37 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Miguel Rodriguez | Creative Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
+ <style>
     body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #f7f7f8;
-      color: #333;
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
     }
     header {
-      background: #111;
-      color: white;
-      padding: 2rem;
       text-align: center;
+      margin-bottom: 2rem;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #ccc;
-          }
     .headshot {
-      margin-top: 1rem;
-      border-radius: 50%;
       width: 150px;
       height: 150px;
+      border-radius: 50%;
       object-fit: cover;
-      border: 3px solid white;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
-          }
-      .resume-button {
+    .resume-button {
       display: inline-block;
       margin-top: 1rem;
       padding: 0.6rem 1.2rem;
@@ -50,60 +39,33 @@
     .resume-button:hover {
       background-color: #005fa3;
     }
-    .section {
-      padding: 3rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .section h2 {
-      font-size: 1.75rem;
-      margin-bottom: 1rem;
-    }
     .project {
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
       margin-bottom: 2rem;
-      padding: 1.5rem;
-    }
-    .project img {
-      display: block;
-      width: 100%;
-      max-width: 600px;
-      height: 300px;
-      object-fit: cover;
-      object-position: center center;
-      margin: 1rem auto;
-      border-radius: 8px;
-    }
-
-    }
-    }
-    .project h3 {
-      margin-top: 0;
-    }
-    .project p {
-      margin-bottom: 0.5rem;
-    }
-    .project a {
-      color: #0073e6;
-      text-decoration: none;
     }
     footer {
+      margin-top: 4rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ccc;
       text-align: center;
-      padding: 2rem;
       font-size: 0.9rem;
-      color: #666;
+    }
+    footer a {
+      color: #0066cc;
     }
   </style>
+</body>
+</html>
+
 </head>
 <body>
-  <header>
-    <h1>Miguel Rodriguez</h1>
-    <p>Creative Lead | Storyteller | Experience Architect</p>
-    <a href="Miguels Resume.pdf" target="_blank" class="resume-button">Download Resume</a>
-    <img src="Miguel.jpeg" alt="Miguel Rodriguez Headshot" class="headshot" />
-  </header>
+<header>
+  <h1>Miguel Rodriguez</h1>
+  <p>Creative Lead • Storyteller • Experience Architect</p>
+  <hr class="divider" />
+  <div class="button-container">
+    <a href="resume.pdf" target="_blank" class="resume-button">Download Resume</a>
+  </div>
+</header>
 
   <section class="section">
     <h2>Immersive & Hybrid Experiences</h2>
