@@ -25,6 +25,30 @@
     header p {
       font-size: 1.2rem;
       color: #ccc;
+      }
+    .headshot {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .resume-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s;
+    }
+    .resume-button:hover {
+      background-color: #005fa3;
+    {
     }
     .headshot {
       margin-top: 1rem;
@@ -72,12 +96,31 @@
     .project a {
       color: #0073e6;
       text-decoration: none;
-    }
     footer {
+      margin-top: 4rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ccc;
       text-align: center;
-      padding: 2rem;
       font-size: 0.9rem;
-      color: #666;
+    }
+    .footer-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    .footer-button {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .footer-button:hover {
+      background-color: #111;
     }
   </style>
 </head>
